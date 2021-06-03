@@ -19,12 +19,11 @@ function render(props = {}) {
 
 
 export async function bootstrap() {
-  console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
   console.log('vue app bootstraped');
 }
 
 export async function mount(props) {
-  console.log('props from main app', props);
+  console.log('挂载', props);
   render();
 }
 
